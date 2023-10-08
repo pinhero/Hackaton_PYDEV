@@ -7,7 +7,7 @@
 
                 <!-- logo -->
                   <div
-                                class=" h-10 text-slate-600 px-4 max-md:fixed text-3xl font-bold  max-md:top-0 max-md:w-full max-md:bg-white/80 max-md:left-0 max-md:px-4 max-md:h-14 max-md:shadow-sm max-md:dark:bg-slate-900/80 backdrop-blur-xl">
+                                class=" sm:block lg:block hidden h-10 text-slate-600 px-4 max-md:fixed text-3xl font-bold  max-md:top-0 max-md:w-full max-md:bg-white/80 max-md:left-0 max-md:px-4 max-md:h-14 max-md:shadow-sm max-md:dark:bg-slate-900/80 backdrop-blur-xl">
                             SciNetHub
                             </div>
 
@@ -26,13 +26,13 @@
                     </a>
                 
                     <!-- Search -->
-                    <a href="#!" class=" flex sm:mt-[-50%]" >
+                    <a href="#!" class=" flex" >
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
                         </svg>
                         <span class="max-xl:hidden mr-[60%] text-gray-500"> Search </span>
                     </a>  
-                    <div class="sm:w-[397px] w-full bg-white shadow-lg md:!left-[73px] hidden !left-0 dark:bg-dark2 dark:border1 max-md:bottom-[57px]" uk-drop="pos: left-center;animate-out: true; animation: uk-animation-slide-left-medium; mode:click; offset: 9"> 
+                    <div class="sm:w-[397px]  w-full bg-white shadow-lg md:!left-[73px] hidden !left-0 dark:bg-dark2 dark:border1 max-md:bottom-[57px]" uk-drop="pos: left-center;animate-out: true; animation: uk-animation-slide-left-medium; mode:click; offset: 9"> 
                         <div class="md:h-screen overflow-y-auto h-[calc(100vh-120px)]">
 
                             <!-- header -->

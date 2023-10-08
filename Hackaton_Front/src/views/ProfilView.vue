@@ -13,7 +13,7 @@
                     <div class="space-y-6">
 
                         <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Academic education </label>
+                            <label class="sm:w-36 text-right"> Academic education </label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your formation"
                                     class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1 ">
@@ -21,7 +21,7 @@
                         </div>
 
                         <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Expertise </label>
+                            <label class="sm:w-36 text-right"> Expertise </label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your expertise"
                                     class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
@@ -29,28 +29,28 @@
                         </div>
 
                         <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Scientific Method </label>
+                            <label class="sm:w-36 text-right"> Scientific Method </label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Enter your method"
                                     class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1 ">
                             </div>
                         </div>
                         <div class="md:flex items-center gap-10">
-                            <label class="md:w-32  text-right"> Technology and Tools </label>
+                            <label class="sm:w-36  text-right"> Technology and Tools </label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Enter your technologie and tools"
                                     class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                             </div>
                         </div>
                         <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Research Ethics </label>
+                            <label class="sm:w-36 text-right"> Research Ethics </label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your ethic"
                                     class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                             </div>
                         </div>
                         <div class="md:flex items-start gap-10">
-                            <label class="md:w-32 text-right"> Bio </label>
+                            <label class="sm:w-36 text-right"> Bio </label>
                             <div class="flex-1 max-md:mt-4">
                                 <textarea class="w-full bg-slate-100 h-32 border-gray-400 border-2 rounded-md p-1 " rows="5"
                                     placeholder="Inter your Bio"></textarea>
