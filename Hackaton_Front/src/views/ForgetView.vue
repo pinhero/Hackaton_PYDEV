@@ -40,7 +40,7 @@
                         <div class="space-x-2 text-sm text-center text-slate-400 dark:text-white/70">
                             <span> Back to sign in </span>
                             <span>—</span>
-                            <a href="form-register.html" class="text-gray-600  hover:text-gray-500">Join now</a>
+                            <a href="register" class="text-gray-600  hover:text-gray-500">Join now</a>
                         </div>
 
                     </form>

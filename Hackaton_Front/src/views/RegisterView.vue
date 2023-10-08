@@ -149,7 +149,7 @@
                                   <input class="!w-full h-10 border-gray-400 border-2 rounded-md p-1 " id="password" name="password" type="password" autofocus=""
                                       placeholder="Password" required="">
 
-                                  <a href="#" class="hidden">
+                                  <a href="forget" class="hidden">
                                       <div class="text-sm text-right text-gray-400 py-4"> Forget password </div>
                                   </a>
 
@@ -160,7 +160,7 @@
                                   <div class="space-x-2 text-sm text-center text-slate-400 dark:text-white/70">
                                       <span> i have account? </span>
                                       <span>—</span>
-                                      <a href="form-login.html" class="text-gray-600 hover:text-gray-500">Login</a>
+                                      <a href="/" class="text-gray-600 hover:text-gray-500">Login</a>
 
                                   </div>
                               </form>

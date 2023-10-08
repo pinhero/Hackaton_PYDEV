@@ -122,9 +122,9 @@
                       <div class="space-x-2 text-sm text-center text-slate-400 dark:text-white/70">
                           <span> No account? </span>
                           <span>—</span>
-                          <a href="form-register.html" class="text-gray-600 hover:text-gray-500">Join now</a>
+                          <a href="register" class="text-gray-600 hover:text-gray-500">Join now</a>
                       </div>
-                      <p class="text-center"><a href="form-forgot.html"
+                      <p class="text-center"><a href="forget"
                               class="text-gray-600 text-sm text-center  hover:text-gray-500">Forgot Password
                               ?</a>
                       </p>

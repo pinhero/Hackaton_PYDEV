@@ -1,8 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 // import HomeView from '../views/HomeView.vue'
-import login1View from '../views/login1View.vue'
-import register from '../views/register.vue'
-import forgot_password from '../views/forgot_password.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -23,25 +21,25 @@ const router = createRouter({
       path: '/register',
       name: 'register',
       component: () =>
-        import('../views/register.vue')
-    },
-        {
-      path: '/login',
-      name: 'login',
-      component: () =>
-        import('../views/login1View.vue')
-    },
-        {
-      path: '/forgot_password',
-      name: 'forgot_password',
-      component: () =>
-        import('../views/forgot_password.vue')
+        import('../views/RegisterView.vue')
     },
     {
       path: '/',
       name: 'login',
       component: () =>
         import('../views/LoginView.vue')
+    },
+      {
+      path: '/forget',
+      name: 'forget',
+      component: () =>
+        import('../views/ForgetView.vue')
+    },
+      {
+      path: '/profil',
+      name: 'profil',
+      component: () =>
+        import('../views/ProfilView.vue')
     },
   ]
 })
