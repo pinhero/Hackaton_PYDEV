@@ -95,6 +95,7 @@ export default {
         .then(response => {
           // Gérer la réponse du backend ici
           console.log(response.data);
+          this.$router.push('/profile');
           // Rediriger l'utilisateur ou effectuer d'autres actions en fonction de la réponse
         })
         .catch(error => {

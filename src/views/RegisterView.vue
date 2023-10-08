@@ -80,11 +80,12 @@ export default {
         .then(response => {
           // Gérer la réponse du backend ici
           console.log(response.data);
+          this.$router.push('/login');
           // Rediriger l'utilisateur vers une autre page ou afficher un message de succès, etc.
         })
         .catch(error => {
           // Gérer les erreurs ici
-          console.error(error);
+          alert(error.response.data.message);
         });
     }
   }
