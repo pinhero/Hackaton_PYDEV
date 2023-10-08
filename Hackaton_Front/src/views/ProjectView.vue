@@ -71,45 +71,45 @@
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Collaboration</label>
+                            <label class="md:w-32 text-right"> Funding</label>
                             <div class="flex-1 max-md:mt-4">
-                                <input type="text" placeholder="Your collaborations"
-                                   name="collaboration" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
+                                <input type="text" placeholder="Funding"
+                                   name="financement" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Collaboration</label>
+                            <label class="md:w-32 text-right"> References</label>
                             <div class="flex-1 max-md:mt-4">
-                                <input type="text" placeholder="Your collaborations"
-                                   name="collaboration" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
+                                <input type="text" placeholder="Your references"
+                                   name="reference" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Collaboration</label>
+                            <label class="md:w-32 text-right"> Ethics and Transparency</label>
                             <div class="flex-1 max-md:mt-4">
-                                <input type="text" placeholder="Your collaborations"
-                                   name="collaboration" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
+                                <input type="text" placeholder="Your ethics"
+                                   name="ethique_transparence" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Collaboration</label>
+                            <label class="md:w-32 text-right"> Communication and Dissemination</label>
                             <div class="flex-1 max-md:mt-4">
-                                <input type="text" placeholder="Your collaborations"
-                                   name="collaboration" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
+                                <input type="text" placeholder="Your methods"
+                                   name="communication_dissémination" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Collaboration</label>
+                            <label class="md:w-32 text-right"> Conclusion</label>
                             <div class="flex-1 max-md:mt-4">
-                                <input type="text" placeholder="Your collaborations"
-                                   name="collaboration" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
+                                <input type="text" placeholder="Conclusion"
+                                   name="conclusion" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Collaboration</label>
+                            <label class="md:w-32 text-right"> Contact Information</label>
                             <div class="flex-1 max-md:mt-4">
-                                <input type="text" placeholder="Your collaborations"
-                                   name="collaboration" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
+                                <input type="text" placeholder="Your contact"
+                                   name="coordonnees" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                       
