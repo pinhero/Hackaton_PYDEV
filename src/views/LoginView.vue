@@ -52,12 +52,6 @@
             class="font-medium text-center hover:bg-white hover:border-blue-900 hover:border-2 hover:text-blue-900  w-full rounded-lg bg-blue-900 py-1.5 px-4 text-white h-[38px] active:scale-[0.97] transition-all duration-150">
             <span>Sign in with ORCID</span> </a>
 
-          <div class="flex gap-3 justify-center text-2xl py-5 text-slate-500">
-            <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
-            <a href="#"> <ion-icon name="logo-google"></ion-icon> </a>
-            <a href="#"> <ion-icon name="logo-apple"></ion-icon> </a>
-          </div>
-
           <div class="space-x-2 text-sm text-center text-slate-400 dark:text-white/70">
             <span> No account? </span>
             <span>—</span>
@@ -95,14 +89,14 @@ export default {
       axios.post('https://pydev-sac.yes.bj/api/login', userData)
         .then(response => {
           // Gérer la réponse du backend ici
+          localStorage.setItem('token', response.data.data.token);
           console.log(response.data.data.token);
-          this.$store.commit('setToken', response.data.data.token)
           this.$router.push('/profil');
           // Rediriger l'utilisateur ou effectuer d'autres actions en fonction de la réponse
         })
         .catch(error => {
           // Gérer les erreurs ici
-          console.error(error);
+          console.log(error);
         });
     },
   },

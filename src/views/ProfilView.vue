@@ -97,18 +97,18 @@ export default {
                 email: this.email,
                 password: this.password
             };
-            axios.post('https://pydev-sac.yes.bj/api/update-user-information', {
-                Authorization: 'Bearer ' + this.$store.state.token,
-            }, userData).then(response => {
-                // Gérer la réponse du backend ici
-                console.log(response.data);
-                this.$router.push('/projets');
-                // Rediriger l'utilisateur vers une autre page ou afficher un message de succès, etc.
-            })
-                .catch(error => {
-                    // Gérer les erreurs ici
-                    alert(error.response.data.message);
-                });
+            this.$router.push('/projeCt');
+            // axios.post('https://pydev-sac.yes.bj/api/update-user-information', {
+            //     Authorization: 'Bearer ' + localStorage.getItem('token'),
+            // }, userData).then(response => {
+            //     // Gérer la réponse du backend ici
+            //     console.log(response.data);
+            //     // Rediriger l'utilisateur vers une autre page ou afficher un message de succès, etc.
+            // })
+            //     .catch(error => {
+            //         // Gérer les erreurs ici
+            //         alert(error.response.data.message);
+            //     });
         }
     }
 };
