@@ -160,7 +160,6 @@
             <span> i have account? </span>
             <span>—</span>
             <a href="/" class="text-gray-600 hover:text-gray-500">Login</a>
-
           </div>
         </form>
 

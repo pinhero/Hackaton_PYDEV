@@ -52,6 +52,12 @@ const router = createRouter({
       component: () =>
         import('../views/ProjectView.vue')
     },  
+      {
+      path: '/pop',
+      name: 'pop',
+      component: () =>
+        import('../components/popup.vue')
+    },  
   ]
 })
 

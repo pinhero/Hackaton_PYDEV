@@ -1,5 +1,6 @@
 <template>
     <div class="bg-slate-100  ">
+         <Popup></Popup>
         <div class="  max-w-2xl mx-auto">
             <div class="page__heading py-6 ">
 
@@ -130,13 +131,21 @@
 
         </div>
      <Slidebar></Slidebar>  
+    
     </div>
     
 </template>
 <script>
+import Popup from '../components/popup.vue'
 import Slidebar from '../components/slidebar.vue'
 export default {
-  components: { Slidebar },
-
+  components: {
+    Popup, Slidebar },
+     mounted() {
+    this.$refs.popup.openPopup();
+  },
 }
 </script>
+
+
+
