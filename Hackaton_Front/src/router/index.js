@@ -46,6 +46,12 @@ const router = createRouter({
       component: () =>
         import('../components/slidebar.vue')
     },
+      {
+      path: '/project',
+      name: 'project',
+      component: () =>
+        import('../views/ProjectView.vue')
+    },  
   ]
 })
 
