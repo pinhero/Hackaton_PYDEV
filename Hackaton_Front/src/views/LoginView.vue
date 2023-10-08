@@ -107,7 +107,7 @@
             class="font-medium w-full  hover:bg-white hover:border-slate-900 hover:border-2 hover:text-slate-900 rounded-lg bg-slate-900 py-1.5 px-4 text-white h-[38px] active:scale-[0.97] transition-all duration-150">
             <span>Sign in</span> </button>
           <button type="submit"
-            class="font-medium   hover:bg-white hover:border-blue-900 hover:border-2 hover:text-blue-900  w-full rounded-lg bg-blue-900 py-1.5 px-4 text-white h-[38px] active:scale-[0.97] transition-all duration-150">
+            class="font-medium   hover:bg-white hover:border-blue-900 hover:border-2 hover:text-blue-900  w-full rounded-lg bg-slate-600  py-1.5 px-4 text-white h-[38px] active:scale-[0.97] transition-all duration-150">
             <span>Sign in with ORCM</span> </button>
 
           <div class="flex gap-3 justify-center text-2xl py-5 text-slate-500">

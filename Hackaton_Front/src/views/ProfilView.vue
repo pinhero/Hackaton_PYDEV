@@ -1,8 +1,7 @@
 <template>
-    <div class="bg-slate-100 ">
-
+    <div class="bg-slate-100  ">
         <div class="  max-w-2xl mx-auto">
-            <div class="page__heading py-6 mt-6">
+            <div class="page__heading py-6 ">
 
                 <h1 class="font-bold text-3xl"> Scientific profile </h1>
             </div>
@@ -73,10 +72,14 @@
             </div>
 
         </div>
+     <Slidebar></Slidebar>  
     </div>
+    
 </template>
 <script>
+import Slidebar from '../components/slidebar.vue'
 export default {
+  components: { Slidebar },
 
 }
 </script>

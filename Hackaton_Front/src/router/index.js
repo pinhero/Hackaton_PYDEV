@@ -40,6 +40,11 @@ const router = createRouter({
       name: 'profil',
       component: () =>
         import('../views/ProfilView.vue')
+    },   {
+      path: '/slide',
+      name: 'slide',
+      component: () =>
+        import('../components/slidebar.vue')
     },
   ]
 })
