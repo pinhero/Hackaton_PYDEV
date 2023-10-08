@@ -52,8 +52,8 @@
                         <div class="md:flex items-start gap-10">
                             <label class="md:w-32 text-right"> Bio </label>
                             <div class="flex-1 max-md:mt-4">
-                                <textarea class="w-full h-32 border-gray-400 border-2 rounded-md p-1 " rows="5" v-model="bio"
-                                    placeholder="Inter your Bio"></textarea>
+                                <textarea class="w-full h-32 border-gray-400 border-2 rounded-md p-1 " rows="5"
+                                    v-model="bio" placeholder="Inter your Bio"></textarea>
                             </div>
                         </div>
                     </div>
@@ -97,13 +97,14 @@ export default {
                 email: this.email,
                 password: this.password
             };
-            axios.post("https://pydev-sac.yes.bj/api/update-user-information", userData)
-                .then(response => {
-                    // Gérer la réponse du backend ici
-                    console.log(response.data);
-                    this.$router.push('/projets');
-                    // Rediriger l'utilisateur vers une autre page ou afficher un message de succès, etc.
-                })
+            axios.post('https://pydev-sac.yes.bj/api/update-user-information', {
+                Authorization: 'Bearer ' + this.$store.state.token,
+            }, userData).then(response => {
+                // Gérer la réponse du backend ici
+                console.log(response.data);
+                this.$router.push('/projets');
+                // Rediriger l'utilisateur vers une autre page ou afficher un message de succès, etc.
+            })
                 .catch(error => {
                     // Gérer les erreurs ici
                     alert(error.response.data.message);

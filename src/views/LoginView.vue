@@ -91,10 +91,12 @@ export default {
         password: this.password,
       };
 
+
       axios.post('https://pydev-sac.yes.bj/api/login', userData)
         .then(response => {
           // Gérer la réponse du backend ici
-          console.log(response.data);
+          console.log(response.data.data.token);
+          this.$store.commit('setToken', response.data.data.token)
           this.$router.push('/profil');
           // Rediriger l'utilisateur ou effectuer d'autres actions en fonction de la réponse
         })
