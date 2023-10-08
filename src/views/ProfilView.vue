@@ -72,8 +72,42 @@
 
     </div>
 </template>
-<script>
-export default {
 
-}
+<script>
+import axios from 'axios';
+export default {
+  data() {
+    return {
+      // username: '',
+      academic: '',
+      expertise: '',
+      method: '',
+      technology: '',
+      ethics: '',
+      bio: ''
+    };
+  },
+  methods: {
+    register() {
+      // Envoyer les données d'inscription au backend avec Axios
+      const userData = {
+        // username: this.username,
+        name: this.name,
+        email: this.email,
+        password: this.password
+      };
+      axios.post("https://pydev-sac.yes.bj/api/register", userData)
+        .then(response => {
+          // Gérer la réponse du backend ici
+          console.log(response.data);
+          this.$router.push('/login');
+          // Rediriger l'utilisateur vers une autre page ou afficher un message de succès, etc.
+        })
+        .catch(error => {
+          // Gérer les erreurs ici
+          alert(error.response.data.message);
+        });
+    }
+  }
+};
 </script>
