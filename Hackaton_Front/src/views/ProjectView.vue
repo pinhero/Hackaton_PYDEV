@@ -1,6 +1,6 @@
 <template>
     <div class="bg-slate-100  ">
-         <Popup></Popup>
+         <!-- <Popup ref="popup"></Popup> -->
         <div class="  max-w-2xl mx-auto">
             <div class="page__heading py-6 ">
 

@@ -1,9 +1,9 @@
 
 <template>
   <div v-if="showPopup" class="fixed inset-0 flex items-center justify-center z-50">
-    <div class="popup-container">
+    <div class="popup-container sm:w-32 h-32 bg-white rounded shadow-lg">
       <div class="popup-content"  ref="" >
-        <p>Welcome</p>
+        <p class="" >Welcome</p>
       </div>
       <button @click="closePopup" class="popup-close-button">Fermer</button>
     </div>
