@@ -13,7 +13,7 @@
                     <div class="space-y-6">
 
                         <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Project Title </label>
+                            <label class="sm:w-36 text-right"> Project Title </label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Project title "
                                  name="titre"   class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1 ">
@@ -21,7 +21,7 @@
                         </div>
 
                         <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Introduction </label>
+                            <label class="sm:w-36 text-right"> Introduction </label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your introduction"
                                   name="introduction"  class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
@@ -29,84 +29,84 @@
                         </div>
 
                         <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Research Objectives </label>
+                            <label class="sm:w-36 text-right"> Research Objectives </label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Enter your objectives"
                                   name="objectifs"  class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1 ">
                             </div>
                         </div>
                         <div class="md:flex items-center gap-10">
-                            <label class="md:w-32  text-right"> Methodology </label>
+                            <label class="sm:w-36  text-right"> Methodology </label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder=" Your methodologie"
                                    name="methodologie" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                             </div>
                         </div>
                         <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Data </label>
+                            <label class="sm:w-36 text-right"> Data </label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your data"
                                   name="donnees"  class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                             </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Collaboration</label>
+                            <label class="sm:w-36 text-right"> Collaboration</label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your collaborations"
                                    name="collaboration" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Expected Results</label>
+                            <label class="sm:w-36 text-right"> Expected Results</label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your results"
                                    name="resultats_attendus" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Schedule</label>
+                            <label class="sm:w-36 text-right"> Schedule</label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your schedule"
                                    name="calendrier" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Funding</label>
+                            <label class="sm:w-36 text-right"> Funding</label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Funding"
                                    name="financement" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> References</label>
+                            <label class="sm:w-36 text-right"> References</label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your references"
                                    name="reference" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Ethics and Transparency</label>
+                            <label class="sm:w-36 text-right"> Ethics and Transparency</label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your ethics"
                                    name="ethique_transparence" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Communication and Dissemination</label>
+                            <label class="sm:w-36 text-right"> Communication and Dissemination</label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your methods"
                                    name="communication_dissémination" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Conclusion</label>
+                            <label class="sm:w-36 text-right"> Conclusion</label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Conclusion"
                                    name="conclusion" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
                           </div>
                         </div>
                          <div class="md:flex items-center gap-10">
-                            <label class="md:w-32 text-right"> Contact Information</label>
+                            <label class="sm:w-36 text-right"> Contact Information</label>
                             <div class="flex-1 max-md:mt-4">
                                 <input type="text" placeholder="Your contact"
                                    name="coordonnees" class="w-full bg-slate-100 h-10 border-gray-400 border-2 rounded-md p-1">
